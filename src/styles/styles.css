@@ -1,0 +1,297 @@
+body{
+    font-size: x-small !important;
+}
+
+a.active {
+    color: orange;
+}
+
+nav {
+    padding-top: 20px;
+}
+
+nav .dropdown-toggle{
+    padding-left: 25px;
+}
+
+.product-preview .detail-link{
+    position: absolute;
+    top: 60px;
+    left: 72px;
+    padding:10px 0 10px 0;
+    background-color: black;
+    color:white;
+    text-align: center;
+    width: 50%;
+    text-decoration:  none;
+    cursor: pointer;
+}
+
+
+.product-preview {
+	color: #797478;
+	float: left;
+
+    width: 26%;
+	margin:  2% 2% 2% 2%;	
+    height:280px;
+    position: relative;
+}
+
+.product-preview p {
+	text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.product-preview .link span{    
+    font-size: 12px;   
+}
+
+.product-preview h6{
+    font-size: 10px;
+    text-align: center;
+}
+
+.product-preview img {
+	max-width: 100%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    height:200px;
+    width: 100%;
+}
+
+.image-container{
+    height: 200px;
+    position:relative;
+}
+
+.image-container .category{
+    position: absolute;
+    top: 0;
+    left:30%;
+    right: 30%;
+    padding: 3.7% 0 5.8% 0;
+    background-color: #37393F;
+    color: white;
+    border-left: thick double white;
+    border-right: thick double white;
+    border-style: solid;
+}
+
+.image-container .category .title{
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom:2px;
+}
+
+.image-container .category .description{
+    text-align: center;
+    padding:3px;
+}
+
+.banner img{
+    width:100%;
+    height:100%;
+}
+
+.galleryContainer {
+	width: 80%;
+	margin: 30px auto;
+	overflow: hidden;
+}
+
+.product-preview .cart-link{
+    position: absolute;
+    top: 120px;
+    left: 72px;
+    padding:10px 0 10px 0;
+    background-color: #37393F;
+    color:white;
+    text-align: center;
+    width: 50%;
+    text-decoration:  none;
+    cursor: pointer;
+}
+
+.product-page .cart-link{
+    padding:18px;
+    background-color: #1E2025;
+    color:white;
+    position: absolute;
+    bottom: 0%;
+}
+
+.product-breadcrum
+{
+    padding-left: 38%;
+}
+
+.product-image
+{
+    left: 10%;
+    width: 50%;
+    padding-top: 4%;
+}
+
+.product-image img{
+    width: 80%;
+}
+
+.product-brand{
+    padding-top: 10%;
+    text-align: center;
+    font-size: large;
+    color: #C9CBCF;
+}
+
+.product-title{
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    padding: 5%;    
+}
+
+.product-price{
+    text-align: center;
+    font-size: large;
+    color: #C9CBCF;
+}
+
+.product-description{
+    font-size: large;
+    padding: 5%;
+    text-align: center;
+    color: #C9CBCF;
+}
+
+.clickable-num{
+    padding: 5% 20%;
+}
+
+.quantity{
+     width: 50px;
+     height: 50px;
+     background: #ECEDEF;
+     float: left;
+     font-size: x-large;
+     font-weight: bold;
+     padding:3px;
+     color: #9599A3
+}
+
+.clickable-container{
+    width:90px;
+    padding:2px;
+}
+
+.qtyminus , .qtyplus{
+    width: 22px;
+  height: 22px;
+  display: block;
+  background: #C9CBCF;
+  float: left;  
+  margin: 2px;
+}
+
+.minicart{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.minicart .cart{
+    width: 320px;  
+    z-index: 1000; 
+    margin-top:50px; 
+    background: #fff;  
+    position: absolute;
+}
+
+.minicart{
+    padding:20px;
+}
+
+.minicart .cart-toggle{
+    border: none;
+    background-color: transparent;
+}
+
+.minicart .cart.show{
+    right: 0 !important;
+    background:#fff;  
+    border:solid #DBDFD7
+}
+
+.cartContent .thumbnail{
+    width: 30%;
+    height:30%;
+    border: none;
+}
+
+.cartContent li{
+    list-style-type: none;
+}
+
+.cartContent .thumbnail{
+    margin-top: 5px;
+    margin-left: -15px;
+}
+
+.miniTitle{
+    margin-top: 5px;
+
+}
+
+.miniRemove{
+    margin-top: 5px;
+    font-size: 13px;
+    color: #DBDFD7;
+    cursor: pointer;
+}
+
+.miniBrand{
+    color: #DBDFD7;
+    margin:5px 0 5px 0;
+}
+
+.viewButton{
+    width: 130px;
+    margin: 10px;
+    height: 40px;
+    background: white;
+}
+
+.checkoutButton{
+    width: 130px;
+    margin: 10px;
+    height:40px;
+    background: black;
+    color: white;
+}
+
+.total{
+    padding-left: 24px;
+}
+
+.jumbotron{
+    height: 100vh;
+    padding-right:180px;
+}
+
+.cartTitle{
+    text-align: center;
+}
+
+.cart-table{
+    background: white;
+    margin-left: 210px;
+    width: 80%;
+}
+
+.cartDesciption{
+    float: right;
+}
+
